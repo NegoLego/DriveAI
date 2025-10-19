@@ -1,0 +1,43 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    min-height: 100vh;
+    background: radial-gradient(rgb(45 45 55), rgb(31 31 36));
+}
+
+.triangle {
+    width: 0;
+    height: 0;
+    border-left: 60px solid transparent;
+    border-bottom: 20px solid rgb(40 40 60);
+    position: absolute;
+    top: 50px;
+    right: 20px;
+}
+
+.container {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    margin: 1.5vw;
+    width: 500px;
+    height: 800px;
+    flex-shrink: 0;
+    flex-wrap: wrap;
+}
+
+canvas {
+    position: absolute;
+}

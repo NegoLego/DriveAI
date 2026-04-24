@@ -1,4 +1,4 @@
-import {NPC} from '/Car-Modules/car.js'
+import {NPC} from './Car-Modules/car.js'
 
 const lane = [null, 110, 250, 390];
 
